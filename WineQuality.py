@@ -1,27 +1,18 @@
-# from __future__ import print_function
 import argparse
-import torch
-# import torch.nn as nn
-# import torch.nn.functional as F
-import torch.optim as optim
-# from torchvision import datasets, transforms
 
-from torch.utils.data import Dataset, random_split
 from sklearn.preprocessing import StandardScaler
+import pandas as pd
+import torch
+import torch.optim as optim
+from torch.utils.data import Dataset, random_split
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.utils.tensorboard import SummaryWriter
-import pandas as pd
-import numpy as np
+
 
 # Writer will output to ./runs/ directory by default
 writer = SummaryWriter()
 
-#from visualization.visdom import Visualizations
-
-## Visdom
-## Initialize the visualization environment
-#vis = Visualizations()
 
 class FeatureDataset(Dataset):
     def __init__(self, file_name):
@@ -29,23 +20,24 @@ class FeatureDataset(Dataset):
         file_out = pd.read_csv(file_name, sep=";")
         x = file_out.iloc[0:4898, 0:11].values
         y = file_out.iloc[0:4898, 11].values - 3
-        
+
         # Feature Scaling
         sc = StandardScaler()
         x_train = sc.fit_transform(x)
         y_train = y
-        
+
         # Converting to torch tensor
         self.X_train = torch.tensor(x_train, dtype=torch.float32)
         self.y_train = torch.tensor(y_train)
-    
+
     def __len__(self):
         return len(self.y_train)
-    
+
     def __getitem__(self, idx):
         return self.X_train[idx], self.y_train[idx]
 
-#Var
+
+# Var
 train_loss_list = []
 valid_loss_list = []
 
@@ -75,8 +67,9 @@ class Net(nn.Module):
         x = F.softmax(self.l2(x))
         return self.l3(x)
 
+
 def train(args, model, device, train_loader, optimizer, epoch):
-    
+
     # Before training the model, it is imperative to call model.train()
     model.train()
 
@@ -102,7 +95,7 @@ def train(args, model, device, train_loader, optimizer, epoch):
 
 
 def test(args, model, device, test_loader, epoch):
-    
+
     # You must call model.eval() before testing the model
     model.eval()
 
@@ -129,8 +122,8 @@ def test(args, model, device, test_loader, epoch):
     print(
         '\nTest set: Average loss: {:.4f}, Accuracy: {}/{} ({:.0f}%)\n'.format(
             test_loss, correct, len(test_loader.dataset), acc))
-    
-    return {'test_loss': test_loss, 'acc':acc}
+
+    return {'test_loss': test_loss, 'acc': acc}
 
 
 def main():
@@ -184,18 +177,13 @@ def main():
             args, model, device, train_loader, optimizer, epoch)
         dic = test(args, model, device, test_loader, epoch)
 
-        #writer.add_scalar('Loss', global_loss_train, epoch)
-        writer.add_scalars(
-            'LOSS', {'loss_train': global_loss_train}, epoch)
-        writer.add_scalars(
-            'LOSS', {'loss_test': dic['test_loss']}, epoch)
-        # writer_test.add_scalar('LOSS', dic['test_loss'], epoch)
+        writer.add_scalars('LOSS', {'loss_train': global_loss_train}, epoch)
+        writer.add_scalars('LOSS', {'loss_test': dic['test_loss']}, epoch)
         writer.add_scalar('Accuracy/train', dic['acc'], epoch)
-        #writer.add_scalar('Accuracy', np.random.random(), epoch)
 
     if (args.save_model):
         torch.save(model.state_dict(), "fnn.pt")
 
+
 if __name__ == '__main__':
     main()
-

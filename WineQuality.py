@@ -37,10 +37,6 @@ class FeatureDataset(Dataset):
         return self.X_train[idx], self.y_train[idx]
 
 
-# Var
-train_loss_list = []
-valid_loss_list = []
-
 feature_set = FeatureDataset('dataset/winequality-white.csv')
 num_rows = len(feature_set)
 val_percent = 0.01
@@ -179,7 +175,7 @@ def main():
 
         writer.add_scalars('LOSS', {'loss_train': global_loss_train}, epoch)
         writer.add_scalars('LOSS', {'loss_test': dic['test_loss']}, epoch)
-        writer.add_scalar('Accuracy/train', dic['acc'], epoch)
+        writer.add_scalar('Accuracy', dic['acc'], epoch)
 
     if (args.save_model):
         torch.save(model.state_dict(), "fnn.pt")

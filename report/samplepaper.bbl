@@ -1,0 +1,340 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Ambrogioni%
+, G{\"u}{\c{c}}l{\"u}%
+, van Gerven%
+\BCBL {}\ \BBA {} Maris%
+}{%
+Ambrogioni%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+ambrogioni2017kernel}
+\APACinsertmetastar {%
+ambrogioni2017kernel}%
+\begin{APACrefauthors}%
+Ambrogioni, L.%
+, G{\"u}{\c{c}}l{\"u}, U.%
+, van Gerven, M\BPBI A.%
+\BCBL {}\ \BBA {} Maris, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The kernel mixture network: A nonparametric method for
+  conditional density estimation of continuous random variables} {The kernel
+  mixture network: A nonparametric method for conditional density estimation of
+  continuous random variables}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{arXiv preprint arXiv:1705.07111}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Cortez%
+, Cerdeira%
+, Almeida%
+, Matos%
+\BCBL {}\ \BBA {} Reis%
+}{%
+Cortez%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+cortez2009modeling}
+\APACinsertmetastar {%
+cortez2009modeling}%
+\begin{APACrefauthors}%
+Cortez, P.%
+, Cerdeira, A.%
+, Almeida, F.%
+, Matos, T.%
+\BCBL {}\ \BBA {} Reis, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Modeling wine preferences by data mining from
+  physicochemical properties} {Modeling wine preferences by data mining from
+  physicochemical properties}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Decision Support Systems}{47}{4}{547--553}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Er%
+\ \BBA {} Atasoy%
+}{%
+Er%
+\ \BBA {} Atasoy%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+er2016classification}
+\APACinsertmetastar {%
+er2016classification}%
+\begin{APACrefauthors}%
+Er, Y.%
+\BCBT {}\ \BBA {} Atasoy, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The classification of white wine and red wine according
+  to their physicochemical qualities} {The classification of white wine and red
+  wine according to their physicochemical qualities}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Intelligent Systems and
+  Applications in Engineering}{}{}{23--26}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gonzalez%
+\ \BBA {} Miikkulainen%
+}{%
+Gonzalez%
+\ \BBA {} Miikkulainen%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+gonzalez2020improved}
+\APACinsertmetastar {%
+gonzalez2020improved}%
+\begin{APACrefauthors}%
+Gonzalez, S.%
+\BCBT {}\ \BBA {} Miikkulainen, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Improved training speed, accuracy, and data utilization
+  through loss function optimization} {Improved training speed, accuracy, and
+  data utilization through loss function optimization}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2020 IEEE Congress on Evolutionary Computation (CEC)}
+  {2020 ieee congress on evolutionary computation (cec)}\ (\BPGS\ 1--8).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jurado%
+\ \BBA {} Fellman%
+}{%
+Jurado%
+\ \BBA {} Fellman%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+jurado2020modelos}
+\APACinsertmetastar {%
+jurado2020modelos}%
+\begin{APACrefauthors}%
+Jurado, M.%
+\BCBT {}\ \BBA {} Fellman, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Modelos de redes neuronales artificiales, como sustento
+  evaluativo al crecimiento pedag{\'o}gico virtual en Educaci{\'o}n Superior}
+  {Modelos de redes neuronales artificiales, como sustento evaluativo al
+  crecimiento pedag{\'o}gico virtual en educaci{\'o}n superior}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Educaci{\'o}n Superior}{7}{2}{25--36}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kingma%
+\ \BBA {} Ba%
+}{%
+Kingma%
+\ \BBA {} Ba%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+kingma2014adam}
+\APACinsertmetastar {%
+kingma2014adam}%
+\begin{APACrefauthors}%
+Kingma, D\BPBI P.%
+\BCBT {}\ \BBA {} Ba, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Adam: A method for stochastic optimization} {Adam: A
+  method for stochastic optimization}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{arXiv preprint arXiv:1412.6980}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Radosavljevi{\'c}%
+, Ili{\'c}%
+\BCBL {}\ \BBA {} Pituli{\'c}%
+}{%
+Radosavljevi{\'c}%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+radosavljevicdata}
+\APACinsertmetastar {%
+radosavljevicdata}%
+\begin{APACrefauthors}%
+Radosavljevi{\'c}, D.%
+, Ili{\'c}, S.%
+\BCBL {}\ \BBA {} Pituli{\'c}, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A DATA MINING APPROACH TO WINE QUALITY PREDICTION.} {A
+  data mining approach to wine quality prediction.}{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ramazan%
+}{%
+Ramazan%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+ramazanrole}
+\APACinsertmetastar {%
+ramazanrole}%
+\begin{APACrefauthors}%
+Ramazan, {\"U}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Role of Artificial Intelligence in Productivity: A
+  Case Study of Wine Quality Prediction} {The role of artificial intelligence
+  in productivity: A case study of wine quality prediction}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Avrupa Bilim ve Teknoloji Dergisi}{}{20}{280--286}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Raschka%
+}{%
+Raschka%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+raschka2015python}
+\APACinsertmetastar {%
+raschka2015python}%
+\begin{APACrefauthors}%
+Raschka, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2015}.
+\newblock
+\APACrefbtitle {Python machine learning} {Python machine learning}.
+\newblock
+\APACaddressPublisher{}{Packt publishing ltd}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Vlassides%
+, Ferrier%
+\BCBL {}\ \BBA {} Block%
+}{%
+Vlassides%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2001}}%
+}]{%
+vlassides2001using}
+\APACinsertmetastar {%
+vlassides2001using}%
+\begin{APACrefauthors}%
+Vlassides, S.%
+, Ferrier, J\BPBI G.%
+\BCBL {}\ \BBA {} Block, D\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Using historical data for bioprocess optimization:
+  modeling wine characteristics using artificial neural networks and archived
+  process information} {Using historical data for bioprocess optimization:
+  modeling wine characteristics using artificial neural networks and archived
+  process information}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Biotechnology and Bioengineering}{73}{1}{55--68}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ye%
+, Li%
+\BCBL {}\ \BBA {} Jia%
+}{%
+Ye%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+ye2020new}
+\APACinsertmetastar {%
+ye2020new}%
+\begin{APACrefauthors}%
+Ye, C.%
+, Li, K.%
+\BCBL {}\ \BBA {} Jia, G\BHBI z.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A new red wine prediction framework using machine
+  learning.} {A new red wine prediction framework using machine
+  learning.}{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Journal of Physics: Conference Series} {Journal of
+  physics: Conference series}\ (\BVOL\ 1684, \BPG~012067).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yu%
+\ \protect \BOthers {.}}{%
+Yu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+yu2008prediction}
+\APACinsertmetastar {%
+yu2008prediction}%
+\begin{APACrefauthors}%
+Yu, H.%
+, Lin, H.%
+, Xu, H.%
+, Ying, Y.%
+, Li, B.%
+\BCBL {}\ \BBA {} Pan, X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Prediction of enological parameters and discrimination
+  of rice wine age using least-squares support vector machines and near
+  infrared spectroscopy} {Prediction of enological parameters and
+  discrimination of rice wine age using least-squares support vector machines
+  and near infrared spectroscopy}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of agricultural and food
+  chemistry}{56}{2}{307--313}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

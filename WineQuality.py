@@ -164,8 +164,6 @@ def main():
     model = Net().to(device)
     print(model)
 
-    # optimizer = optim.SGD(
-    #     model.parameters(), lr=args.lr, momentum=args.momentum)
     optimizer = optim.Adam(model.parameters(), lr=args.lr)
 
     for epoch in range(1, args.epochs + 1):
